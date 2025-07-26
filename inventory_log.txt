@@ -1,0 +1,20 @@
+2025-07-26 11:55:37,804 INFO: Checking inventory for low stock items.
+2025-07-26 11:55:40,104 INFO: User restock prompt input: no
+2025-07-26 11:55:40,104 INFO: User chose not to restock.
+2025-07-26 12:07:51,983 INFO: Checking inventory for low stock items.
+2025-07-26 12:07:51,986 INFO: Found 56 items with OnHandQty less than ReorderPoint.
+2025-07-26 12:08:41,323 INFO: Checking inventory for low stock items.
+2025-07-26 12:08:41,325 INFO: Found 56 items with OnHandQty less than ReorderPoint.
+2025-07-26 12:08:42,435 ERROR: Failed to send email: (534, b'5.7.9 Application-specific password required. For more information, go to\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor 8926c6da1cb9f-508c9342655sm661337173.71 - gsmtp')
+2025-07-26 12:09:47,825 INFO: User restock prompt input: n
+2025-07-26 12:09:47,825 INFO: User gave invalid input for restock prompt.
+2025-07-26 12:09:58,441 INFO: Checking inventory for low stock items.
+2025-07-26 12:09:58,443 INFO: Found 56 items with OnHandQty less than ReorderPoint.
+2025-07-26 12:09:58,940 ERROR: Failed to send email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials ca18e2360f4ac-880f7a2a8c9sm61856639f.21 - gsmtp')
+2025-07-26 12:12:29,101 INFO: User restock prompt input: & c:/users/wangh/anaconda3/python.exe "c:/users/wangh/onedrive/desktop/class/summer 2025/cst 690 100 robotic process automation/week3/pycode/excelfilem.py"
+2025-07-26 12:12:29,102 INFO: User gave invalid input for restock prompt.
+2025-07-26 12:12:33,290 INFO: Checking inventory for low stock items.
+2025-07-26 12:12:33,291 INFO: Found 56 items with OnHandQty less than ReorderPoint.
+2025-07-26 12:12:33,735 ERROR: Failed to send email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 8926c6da1cb9f-508c93b00c5sm663391173.117 - gsmtp')
+2025-07-26 12:13:26,028 INFO: User restock prompt input: y
+2025-07-26 12:13:26,052 INFO: Restocked 56 items.
