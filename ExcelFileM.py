@@ -36,19 +36,19 @@ def main():
         if choice == "0" or choice.lower() in ["exit", "end"]:
             cont = False
         elif choice == "1":
-            logging.info("User chose to identify duplicates.")
+            logging.info("User choose to identify duplicates.")
             start = time.time()
             df = identify_duplicates(df)
             end = time.time()
             print(f"Time taken to identify duplicates: {end - start:.2f} seconds")
         elif choice == "2":
-            logging.info("User chose to remove duplicates.")
+            logging.info("User choose to remove duplicates.")
             start = time.time()
             df = remove_duplicates(df)
             end = time.time()
             print(f"Time taken to remove duplicates: {end - start:.2f} seconds")
         elif choice == "3":
-            logging.info("User chose to check inventory.")
+            logging.info("User choose to check inventory.")
             start = time.time()
             checking_inventory(df)
             end = time.time()
@@ -91,7 +91,7 @@ def checking_inventory(df):
             logging.info(f"Restocked {amount} items.")
         elif choice == "no":
             print("No items will be restocked.")
-            logging.info("User chose not to restock.")
+            logging.info("User choose not to restock.")
         else:
             logging.info("User gave invalid input for restock prompt.")
 
@@ -161,7 +161,9 @@ def identify_duplicates(df):
 
 if __name__ == "__main__":
     start = time.time()
+    logging.info("------------- Script execution Started -------------")
     main()
+    logging.info("------------- Script execution Ended -------------")
     end = time.time()
     print(f"Total time taken: {end - start:.2f} seconds")
 
